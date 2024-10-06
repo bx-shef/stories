@@ -1,0 +1,29 @@
+{
+	"name": "@bitrix24/stories",
+	"version": "0.1.0",
+	"author": "Igor Shevchik",
+	"license": "MIT",
+	"private": true,
+	"description": "Маленькие истории для чтения на английском",
+	"keywords": [
+		"Children",
+		"Education"
+	],
+	"homepage": "https://bx-shef.github.io/stories/",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/bx-shef/stories.git"
+	},
+	"type": "module",
+	"workspaces": [
+		"docs"
+	],
+	"scripts": {
+		"docs:dev": "vitepress dev docs",
+		"docs:build": "vitepress build docs",
+		"docs:preview": "vitepress preview docs"
+	},
+	"devDependencies": {
+		"vitepress": "^1.3.4"
+	}
+}

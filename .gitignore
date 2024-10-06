@@ -1,0 +1,73 @@
+# dependencies
+/node_modules
+
+# testing
+/coverage
+
+# yarn
+**/.yarn/cache
+**/.yarn/*state*
+
+# logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# misc
+.vscode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+*.iml
+.idea
+.DS_Store
+.AppleDouble
+.LSOverride
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+*.pem
+.temp
+.tmp
+.cache
+Thumbs.db
+
+# production
+docs/.vitepress/dist
+docs/.vitepress/cache
+
+# TypeScript
+*.tsbuildinfo
+
+# local env files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# testing
+reports
+coverage
+*.lcov
+.nyc_output
+
+# vercel
+.vercel
+
+# nuxt
+.nuxt
+.output
+.data
+.vercel_build_output
+.build-*
+.netlify
+
+/@tmp
